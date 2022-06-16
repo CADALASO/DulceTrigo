@@ -1,0 +1,141 @@
+nav {
+    background-color: var(--red-wine);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.linea-nav2 {
+    margin-top: -4%;
+    width: 100%;
+    height: 1rem;
+}
+
+hr {
+    background-color: var(--cream);
+    width: 80vh;
+    height: 4px;
+    margin-top: 2px;
+}
+
+#chk-menu {
+    display: none;
+}
+
+#chk-menu:checked~.items {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-menu {
+    color: var(--beby-pink);
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 100%
+}
+
+.btn-menu i {
+    background-color: var(--pink-stick);
+    color: var(--black-rose);
+    padding: 5px 6px;
+    border-radius: 10px;
+    border: 1px solid var(--red-wine);
+    box-shadow: 4px 4px 6px var(--black-rose);
+}
+
+.items {
+    display: none;
+    font-family: 'delius';
+    font-size: 20px;
+    text-align: center;
+}
+
+.item {
+    color: var(--white);
+    margin: 7px;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: rgba(248, 245, 246, 0.8);
+    text-decoration: solid var(--cream);
+    transform: scale(1.2);
+    transition: transform;
+    text-decoration: underline;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:768px) {
+
+    nav {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0 0;
+        height: 50px;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    .linea-nav2 {
+        margin-top: -1rem;
+    }
+
+    .line-nav {
+        margin-top: 1rem;
+        height: 2rem;
+        width: 2px;
+        background-color: var(--cream);
+        border-radius: 20px;
+        border: none;
+    }
+
+    .items {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    .item {
+        text-decoration: none;
+        color: var(--white);
+        margin: auto 2rem;
+    }
+
+    .item:hover {
+        margin: auto 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    nav {
+        height: 55px;
+    }
+
+    .item:hover {
+        margin: auto 5rem;
+    }
+
+    .linea-nav2 {
+        margin-top: -2%;
+    }
+
+    .item {
+        margin: auto 4rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .linea-nav2 {
+        margin-top: -1.5%;
+    }
+    .item {
+        margin: auto 5rem;
+    }
+}

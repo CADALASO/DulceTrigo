@@ -1,0 +1,179 @@
+#header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header-container img {
+    margin-top: 10px;
+    width: 250px;
+}
+
+.header-title {
+    color: var(--black-rose);
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0.5px var(--black-rose);
+    font-family: 'nesans';
+    font-size: 22px;
+}
+
+.button-header {
+    display: flex;
+    justify-content: center;
+}
+
+.button-header button {
+    background-color: var(--pink-stick);
+    border: 0.5px solid var(--red-wine);
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding: 6px 8px;
+    box-shadow: 4px 4px 6px var(--black-rose);
+}
+
+.shop {
+    font-size: 20px;
+    color: var(--black-rose);
+    cursor: pointer;
+}
+
+.user {
+    font-size: 22px;
+    padding: 0 1px 0 1px;
+    color: var(--black-rose);
+    cursor: pointer;
+}
+
+.button-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    margin-top: 3%;
+}
+
+.buttons-container input {
+    border: 0.5px solid var(--red-wine);
+    border-radius: 30px;
+    background-color: var(--pink-stick);
+    box-shadow: 4px 4px 6px var(--black-rose);
+    width: 11rem;
+    height: 44px;
+    margin-top: 8px;
+    padding-left: 8px;
+}
+
+.buttons-container button {
+    font-size: 20px;
+    color: var(--black-rose);
+}
+
+.buttons-container input::placeholder {
+    color: var(--black-rose);
+    font-size: 20px;
+    text-align: end;
+}
+
+.icon-search:focus {
+    outline: none;
+}
+
+.icon-search::placeholder {
+    background-image: url(../../assets/img/magnifying-glass-solid.svg);
+    background-size: 20px;
+    padding: 0 0 3px 0;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+@media screen and (min-width:768px) {
+
+    #header-container {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    #header-container img {
+        width: 200px;
+    }
+
+    .button-header {
+        align-items: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .buttons-container {
+        margin: 3% 0 8% 0%;
+    }
+    .buttons-container input {
+        width: 12rem;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+
+    .buttons-container button {
+        font-size: 21px;
+        padding: 6px 10px;
+    }
+
+    .icon-search::placeholder {
+        background-size: 22px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    #header-container img {
+        width: 260px;
+    }
+    .buttons-container button {
+        font-size: 21px;
+        padding: 6px 8px;
+    }
+    .shop {
+        font-size: 25px;
+    }
+
+    .buttons-container input::placeholder {
+        font-size: 22px;
+    }
+
+    .buttons-container input {
+        width: 15rem;
+        height: 45px;
+    }
+
+    .header-title {
+        font-size: 26px;
+    }
+
+    .icon-search::placeholder {
+        background-size: 26px;
+        background-position: right 0.2rem;
+    }
+
+    .user {
+        font-size: 25px;
+        padding: 0 2px 0 2px;
+        color: var(--black-rose);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #header-container img {
+        width: 300px;
+    }
+    .header-title {
+        font-size: 32px;
+    }
+
+}
