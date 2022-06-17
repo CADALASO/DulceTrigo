@@ -1,16 +1,17 @@
 import './Catalogo.css';
-import { Card } from 'react-bootstrap';
 
 function CatTortas({ catalogo }) {
     return (
-        <div className="col-4">
-        <Card className='card' style={{ width: '18rem', background: 'rgba(250, 235, 215, 0.6)' }}>
-            <Card.Img variant="top" src={catalogo.foto} width="200px" height="300px" />
-            <Card.Body>
-                <Card.Title className='text-center'>{catalogo.nombre}</Card.Title>
-            </Card.Body>
-        </Card>
-    </div>
+        <div>
+            <section id="container-tortas" class="tortas">
+                <article>
+                    <img src={catalogo.foto} />
+                    <p>{catalogo.nombre}</p>
+                </article>
+            </section>
+        </div>
+
+
     );
 }
 
