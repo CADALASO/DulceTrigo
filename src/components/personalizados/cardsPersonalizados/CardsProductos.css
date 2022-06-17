@@ -1,0 +1,158 @@
+
+.btn-order {
+    text-decoration: none;
+    border: 0.5px solid var(--red-wine);
+    color: var(--black-rose);
+    border-radius: 50px;
+    font-family: 'delius';
+    font-weight: bolder;
+    padding: 10px;
+    background-color: var(--dark-beige);
+    box-shadow: 0px 8px 10px rgb(00, 00, 00, 30%);
+    margin: 0 auto;
+}
+
+.imgCard{
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title{
+    font-family: 'delius';
+    color: var(--red-wine);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--black-rose);
+    margin: 10px 0;
+}
+.card-text{
+    font-family: 'delius';
+    color: var(--black-rose);
+    width: 310px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+}
+.btn-ver,.btn-ver:hover,.btn-ver:focus{
+    background-color: var(--red-wine);
+    font-family: 'delius';
+    color: var(--white);
+    font-size: 14px;
+    margin: 15px 7rem;
+    text-shadow: 1px 1px 1px var(--black-rose);
+    
+}
+.btn-center{
+    text-align: center;
+}
+.cardsPersonalizados{
+    background-color: var(--pink-stick);
+    width: 320px;
+    margin: 0 auto 20px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 5px;
+}
+.w-img{
+    width:60%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.color{
+    background-color: var(--red-wine);
+}
+.color-btn{
+    background-color: var(--red-wine);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto 10px;
+}
+.color-body{
+    background-color: var(--white);
+}
+.modaltitle{
+    font-family: 'delius';
+    font-size: 24px;
+    text-transform:uppercase;
+    font-weight: bold;
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--black-rose);
+    margin:-2px 0;
+}
+.btn-close{
+    background-color: var(--white);
+    border-radius: 50%;
+}
+/*Resolucion tablet*/
+@media screen and (min-width:768px) {
+
+.btn-order {
+        margin-bottom: 50px;
+    }
+.imgCard{
+    width: 640px;
+    height: 300px;
+}
+.card-text{
+    width: 630px;
+}
+.btn-ver,.btn-ver:hover,.btn-ver:focus{
+    font-size: 16px;
+    margin: 15px 17rem;
+}
+.cardsPersonalizados{
+    width: 640px;
+    margin: 0 auto 20px auto;
+}
+.w-img{
+    width:60%;
+    height: 500px;
+}
+.footerModal{
+    height: 80px;
+}
+}
+
+/*Resolucion medias*/
+@media screen and (min-width:1024px) {
+
+    .btn-order button {
+        padding: 20px;
+        font-size: 22px;
+    }
+    .imgCard{
+        width: 280px;
+        height: auto;
+    }
+    .btn-ver,.btn-ver:hover,.btn-ver:focus{
+        margin: 15px 5.7rem;
+    }
+    .card-text{
+        width: 270px;
+    }
+    .cardsPersonalizados{
+        width: 280px;
+    }
+}
+
+/*Resolucion macro*/
+@media screen and (min-width:1200px) {
+.center{
+    margin: 10px auto;
+}
+.imgCard{
+    width: 340px;
+}
+.card-text{
+    width: 330px;
+}
+.cardsPersonalizados{
+    width: 340px;
+}
+.btn-ver,.btn-ver:hover,.btn-ver:focus{
+    margin: 15px 7.6rem;
+}
+}

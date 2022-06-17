@@ -1,0 +1,76 @@
+.acercade-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'delius';
+    text-align: justify;
+    font-size: 16px;
+}
+
+.container-collage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'breadley';
+    color: var(--red-wine);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.collage {
+    width: 250px;
+    height: auto;
+}
+
+.line {
+    width: 100%;
+    margin: 20px auto;
+}
+
+@media screen and (min-width:768px) {
+
+    .container-collage {
+        flex-direction: row;
+        padding: 20px 0;
+        margin: 0 30px;
+    }
+
+    .container-collage p {
+        margin-right: 30px;
+    }
+
+    .collage {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .collage {
+        width: 300px;
+    }
+    .container-collage p {
+        width: 500px;
+        margin-right: 60px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .collage {
+        width: 520px;
+        height: 250px;
+    }
+
+    .container-collage p {
+        width: 420px;
+        margin-right: 70px;
+    }
+}

@@ -3,15 +3,20 @@ import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Navbar from '../components/navbar/Navbar';
 import WhatsApp from '../components/whatsApp/WhatsApp';
+import Acercade from "../components/acercade/acercade";
+import Tips from "../components/acercade/tips/Tips"
 
-function Acercade() {
+
+function acercade() {
     return (
         <div>
-        <Navbar/>
-        <Header/>
-        <WhatsApp/>
-        <Footer/>
+            <Navbar />
+            <Header />
+            <Acercade/>
+            <Tips />
+            <WhatsApp />
+            <Footer />
         </div>
     );
 }
-export default Acercade;
+export default acercade;
