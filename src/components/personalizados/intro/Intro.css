@@ -1,0 +1,18 @@
+#container-text {
+    padding: 30px 30px 0 30px;
+}
+
+.title {
+    font-family: 'breadley';
+    color: var(--red-wine);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'delius';
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 16px;
+}

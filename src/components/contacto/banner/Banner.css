@@ -1,0 +1,57 @@
+.banner{
+    background: url(../../../assets/img/banner-contacto.jpg) no-repeat right top scroll;
+    height:150px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.banner p{
+    width: 60%;
+    margin:10px;
+    color: var(--white);
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 2px var(--black-rose);
+    font-family: 'delius';
+}
+.banner h2{
+    width: 60%;
+    margin: 5px auto;
+    font-family: 'breadley';
+    color:var(--white);
+    font-size: 40px;
+    text-shadow: 2px 2px 2px var(--red-wine);
+}
+
+@media screen and (min-width:768px){
+    .banner{
+        height:180px;
+        margin: 0 0 2rem 0; 
+    }
+    .banner p{
+        width: 80%;
+    }
+    .banner h2{
+        margin: 10px auto;
+        font-size: 50px;
+    }
+}
+@media screen and (min-width:1024px){
+    .banner h2{
+        margin: 10px auto;
+        padding-left:4rem ;
+        font-size: 50px;
+    }
+    .banner p{
+        width: 90%;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .banner h2{
+        margin: 20px auto;
+    }
+}

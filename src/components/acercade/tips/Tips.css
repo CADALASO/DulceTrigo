@@ -1,0 +1,184 @@
+#tips-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'delius';
+    text-align: justify ;
+    font-size: 16px;
+}
+
+#tips-container h2 {
+    margin-bottom: 20px;
+}
+
+.first-card,
+.third-card,
+.fifth-card {
+    display: flex;
+    align-items: center;
+    height: 144px;
+    padding: 0 5px;
+    background-color: var(--pink-stick);
+    border-radius: 50px 0 50px 0;
+    box-shadow: 2px 2px 5px var(--red-wine);
+    background-image: linear-gradient(90deg,
+            var(--pink-stick),
+            var(--cream));
+    background-size: 200% 200%;
+    animation: move 5s ease alternate infinite;
+}
+
+@keyframes move {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
+
+.first-card img,
+.second-card img,
+.third-card img,
+.fourth-card img,
+.fifth-card img {
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 5px 10px 0;
+}
+
+.first-card p,
+.second-card p,
+.third-card p,
+.fourth-card p,
+.fifth-card p {
+    margin: 10px;
+}
+
+.second-card,
+.fourth-card {
+    display: flex;
+    align-items: center;
+    height: 144px;
+    padding: 0 10px;
+    margin: 20px 0;
+    background-color: var(--cream);
+    border-radius: 0 50px 0 50px;
+    box-shadow: -2px 2px 5px var(--red-wine);
+    background-image: linear-gradient(90deg,
+            var(--cream),
+            var(--pink-stick));
+    background-size: 200% 200%;
+    animation: move 5s ease alternate infinite;
+}
+
+.fifth-card {
+    margin-bottom: 20px;
+}
+
+/*Resolucion tablet*/
+@media screen and (min-width:768px) {
+
+    .first-card,
+    .second-card,
+    .third-card,
+    .fourth-card,
+    .fifth-card {
+        height: 100px;
+        margin: 20px 30px;
+        font-size: 16px;
+    }
+    .second-card,
+    .fourth-card {
+        border-radius: 0 20px 0 20px;
+    }
+    .first-card,
+.third-card,
+.fifth-card {
+    border-radius: 20px 0 20px 0;
+}
+    .first-card img,
+    .second-card img,
+    .third-card img,
+    .fourth-card img,
+    .fifth-card img {
+        width: 90px;
+        margin: 0 20px;
+    }
+
+    .fifth-card {
+        margin-bottom: 20px;
+    }
+
+}
+
+/*Resolucion medias*/
+@media screen and (min-width:1024px) {
+    .tips {
+        display: flex;
+    }
+
+    .width {
+        width: 100%;
+    }
+
+    .first-card,
+    .second-card {
+        height: 200px;
+        padding: 10px 10px;
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    .second-card {
+        box-shadow: 2px 2px 5px var(--red-wine);
+    }
+
+    .first-card img,
+    .second-card img,
+    .third-card img,
+    .fourth-card img {
+        width: 115px;
+    }
+
+    .third-card,
+    .fourth-card {
+        height: 200px;
+        padding: 10px 10px;
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    .third-card {
+        box-shadow: -2px 2px 5px var(--red-wine);
+    }
+
+    .fifth-card {
+        height: 150px;
+        width: 94%;
+        margin: 10px 10px 30px 10px;
+        border-radius: 30px;
+        padding: 5px 10px;
+        box-shadow: 0px 2px 5px var(--red-wine);
+    }
+
+    .fifth-card img {
+        width: 120px;
+    }
+    .fifth-card p {
+        font-size: 18px;
+    }
+}
+
+/*Resolucion macro*/
+@media screen and (min-width:1200px) {
+
+    .first-card img,
+    .second-card img,
+    .third-card img,
+    .fourth-card img {
+        width: 120px;
+    }
+}
