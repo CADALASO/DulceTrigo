@@ -1,8 +1,9 @@
-import React from 'react';
+import ContLogin from "../components/contlogin/ContLogin";
 
 function Login(){
     return(
-        <h1>Hola</h1>
+        <ContLogin/>
     );
 }
+
 export default Login;

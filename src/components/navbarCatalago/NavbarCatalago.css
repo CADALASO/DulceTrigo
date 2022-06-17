@@ -1,0 +1,152 @@
+.btn-pasteleria {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.btn-catalogo-space {
+    margin: 0 4px 0 4px;
+}
+
+.btn-pasteleria button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 5px;
+    width: 90%;
+    background-color: var(--pink-stick);
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-pasteleria img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.itemcata {
+    text-decoration-line: none;
+    color: var(--black-rose);
+    font-size: 14px;
+    font-family: 'delius';
+    text-shadow: 0.2px 0.2px 0.2px var(--black-rose);
+}
+
+.itemcata:hover{
+    color: var(--black-rose);
+    font-weight: 500;
+}
+
+.border-btn {
+    border: 2px solid var(--pink-stick);
+}
+
+.seleccion {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px solid var(--black-rose);
+    border-right: 3px solid var(--black-rose);
+    border-bottom: 3px solid var(--black-rose);
+    border-left: 3px solid var(--pink-stick);
+}
+
+@media screen and (min-width:768px) {
+
+    .btn-pasteleria {
+        flex-direction: column;
+    }
+
+    .btn-catalogo-space {
+        margin: 4px 0 4px 0;
+    }
+
+    .btn-pasteleria button {
+        flex-direction: column;
+        padding: 5px 8px 25px 5px;
+        width: 50px;
+        height: 160px;
+        border-end-start-radius: 0px;
+        border-end-end-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .btn-pasteleria button:hover {
+        animation: salir 1s infinite;
+    }
+
+    @keyframes salir {
+        0% {
+            width: 80px;
+        }
+
+        100% {
+            width: 80px;
+        }
+
+    }
+
+    .btn-pasteleria img {
+        width: 35px;
+        margin-top: 58%;
+        transform: rotate(-90deg);
+        margin-bottom: 18px;
+    }
+
+    .itemcata {
+        font-size: 15px;
+        font-family: 'delius';
+        padding-right: 20px;
+        text-shadow: 0.2px 0.2px 0.2px var(--black-rose);
+        transform: rotate(-90deg);
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .btn-pasteleria button {
+        width: 60px;
+        height: 180px;
+        background-color: var(--pink-stick);
+        border-end-start-radius: 0px;
+        border-end-end-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .btn-pasteleria img {
+        width: 40px;
+        margin-top: 45%;
+        margin-bottom: 20%;
+    }
+
+    .itemcata {
+        font-size: 20px;
+        padding: 4px 40px 4px 5px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .btn-pasteleria img {
+        width: 50px;
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+
+    .itemcata {
+        font-size: 20px;
+        padding-top: 5%;
+        padding-right: 40px;
+    }
+
+    .btn-pasteleria button {
+        height: 190px;
+    }
+
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'nesans';
+    src: url(../assets/fonts/Nesans\ Semi\ Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'breadley';
+    src: url(../assets/fonts/BreadleySans-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'delius';
+    src: url(../assets/fonts/Delius-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --red-wine: #731627;
+    --pink-stick: #D9B1AD;
+    --white: #F6F5EE;
+    --dark-beige: #BF9775;
+    --golden: #AF8738;
+    --cream: #F0ECDE;
+    --black-rose: #2B0D16;
+    --light-red-wine: rgba(141, 22, 65, 40%);
+    --beby-pink: #FACCC7;
+  }
+
+  .title-page{
+    font-family: 'breadley';
+    color: var(--red-wine);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  
+  .cont-dash{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-form {
+    width: 16rem;
+    padding-top: 2%;
+  }
+  
+  .btn-registrar{
+    font-family: 'delius';
+    font-size: 19px;
+    background-color: var(--red-wine);
+    color: var(--cream);
+    margin: 2%;
+  }
+  
+  .title-dashboard {
+    font-family: 'breadley';
+    font-size: 45px;
+    padding: 1.5rem 0 3rem 0;
+    color: var(--red-wine);
+  }
+  
+  .table {
+    width: 95%;
+  }
+  
+  .cont-table {
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    font-family: 'delius';
+    background-color: rgba(250, 235, 215, 0.402);
+    border-radius: 4px;
+  }
+  
+  table img {
+    width: 110px;
+  }
+  
+  .border-table {
+    border-bottom: 2px solid var(--red-wine);
+  }
+  
+  .title-table {
+    color: var(--red-wine);
+    font-size: 18px;
+  }
+  
+  .text-table {
+    color: var(--black-rose);
+    font-weight: 550;
+  }
+  
+  .btn-golden {
+    background-color: var(--golden);
+    color: var(--red-wine);
+    font-size: 23px;
+    box-shadow: 1px 1px 2.5px var(--black-rose);
+  }
+  
+  .btn-wine {
+    background-color: var(--red-wine);
+    color: var(--golden);
+    font-size: 23px;
+    box-shadow: 1px 1px 2.5px var(--black-rose);
+  }
+
+  @media screen and (min-width:768px) {
+
+    .title-page {
+        font-size: 45px;
+        margin-bottom: 3%;
+    }
+  }
+  
+  
+  @media screen and (min-width:1024px) {
+  
+    .title-page {
+        font-size: 55px;
+    }
+  }
+  
+  
+  @media screen and (min-width:1200px) {
+  
+    .titutlo {
+       font-size: 70px;
+    }
+  }

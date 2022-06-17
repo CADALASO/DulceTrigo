@@ -1,0 +1,226 @@
+{
+  "catalogo": [
+    {
+      "id": 1,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/redvelvet.svg",
+      "fotoModal": "https://drive.google.com/file/d/1H-P5V-6Ke9UD_N3bOOUi_nlQNeWlkhr3/view?usp=sharing",
+      "nombre": "Red velvet",
+      "descripcion": "Bizcocho de terciopelo rojo con un suave sabor a cacao relleno de frosting de queso crema",
+      "porciones": "8 porciones",
+      "precio": "38.000"
+    },
+    {
+      "id": 2,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/arcoiris.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/arcoiris.svg",
+      "nombre": "Arco iris",
+      "descripcion": "6 capas de bizcocho de vainilla con 6 colores diferentes, relleno de crema de mantequilla con chocolate blanco",
+      "porciones": "10 porciones",
+      "precio": "125.000"
+    },
+    {
+      "id": 3,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/arandanos.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/arandanos.svg",
+      "nombre": "Arándanos",
+      "descripcion": "Bizcocho con un suave sabor a limón, relleno de crema con un delicioso sabor a limón y salsa de arándanos",
+      "porciones": "8 porciones",
+      "precio": "55.000"
+    },
+    {
+      "id": 4,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/selvaNegra.svg",
+      "fotoModal": "https://dulcetrigo.000webhostapp.com/src/utils/img/selvaNegra.svg",
+      "nombre": "Selva negra",
+      "descripcion": "Bizcocho de chocolate relleno con crema chantilly sabor a vainilla y salsa de amarenas. Con cerezas amarenas y chocolate triturado",
+      "porciones": "8 porciones",
+      "precio": "43.000"
+    },
+    {
+      "id": 5,
+      "tipo": "torta",
+      "foto": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/cocoyfresa.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/cocoyfresa.svg",
+      "nombre": "Coco y fresas",
+      "descripcion": "Bizcocho con sabor a coco, relleno con frosting de queso crema y coco, y salsa de fresas",
+      "porciones": "8 porciones",
+      "precio": "42.000"
+    },
+    {
+      "id": 6,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pistacho.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/pistacho.svg",
+      "nombre": "Pistacho y frutos rojos",
+      "descripcion": "Bizcocho de pistacho, relleno y cubierto con frosting de queso crema, salsa de frutos rojos🍓🍇 y ganache de pistacho",
+      "porciones": "10 porciones",
+      "precio": "60.000"
+    },
+    {
+      "id": 7,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/zanahoria.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/zanahoria.svg",
+      "nombre": "Zanahoria",
+      "descripcion": "Bizcocho de zanahoria🥕 cubierto de frosting de queso crema",
+      "porciones": "10 porciones",
+      "precio": "55.000"
+    },
+    {
+      "id": 8,
+      "tipo": "torta",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/obsesion.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/obsesion.svg",
+      "nombre": "Obsesión",
+      "descripcion": "Bizcocho suave de chocolate🍫 relleno de frosting de chocolate",
+      "porciones": "8 porciones",
+      "precio": "38.000"
+    },
+    {
+      "id": 9,
+      "tipo": "torta",
+      "foto": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/baileys.svg",
+      "fotoModal": "https://cadalaso.github.io/Dulce_trigo/src/utils/img/baileys.svg",
+      "nombre": "Tres leches de Baileys",
+      "descripcion": "Bizcocho humedecido con 3 leches, relleno y cubierto con crema de baileys y chips de chocolate",
+      "porciones": "8 porciones",
+      "precio": "45.000"
+    },
+    {
+      "id": 10,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/chocoflan.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/chocoflan.svg",
+      "nombre": "Chocoflan",
+      "descripcion": "Una combinación de bizcocho de chocolate y flan de caramelo con una cubierta de frutas y arequipe",
+      "porciones": "8 porciones",
+      "precio": "45.000"
+    },
+    {
+      "id": 11,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/amapola.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/amapola.svg",
+      "nombre": "Amapola",
+      "descripcion": "Capa de bizcocho de vainilla, mousse de amapola y maracuya, coulis de frutos rojos, cubierto con un brillo de espejo de chocolate",
+      "porciones": "10 porciones",
+      "precio": "60.000"
+    },
+    {
+      "id": 12,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/nubes.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/nubes.svg",
+      "nombre": "Nubes",
+      "descripcion": "Bizcocho de vainilla, coulis de frutos rojos y maracuya, cubierto con mousse de limón",
+      "porciones": "8 porciones",
+      "precio": "70.000"
+    },
+    {
+      "id": 13,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/bomba.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/bomba.svg",
+      "nombre": "Bomba de maracuya y chocolate",
+      "descripcion": "Bizcocho de chocolate relleno con mousse de maracuya y cubierto con ganache de chocolate",
+      "porciones": "8 porciones",
+      "precio": "40.000"
+    },
+    {
+      "id": 14,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/4en1.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/4en1.svg",
+      "nombre": "Cuatro en uno",
+      "descripcion": "Combinación de torta 3 leches y chocoflan, cubierto con crema chantilly",
+      "porciones": "8 porciones",
+      "precio": "55.000"
+    },
+    {
+      "id": 15,
+      "tipo": "postres",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/sonata.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/sonata.svg",
+      "nombre": "Sonata de sabores",
+      "descripcion": "Capas de bizcocho de chocolate, mousse de cafe, coulis de mora y frosting de queso crema",
+      "porciones": "8 porciones",
+      "precio": "70.000"
+    },
+    {
+      "id": 16,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/g-pistacho.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/g-pistacho.svg",
+      "nombre": "Galletas de pistacho",
+      "descripcion": "Galletas con sabor a pistacho y chips de chocolate",
+      "porciones": "6 unidades",
+      "precio": "17.000"
+    },
+    {
+      "id": 17,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/g-avena.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/g-avena.svg",
+      "nombre": "Galletas de avena",
+      "descripcion": "Galletas con avena en ojuelas y arándanos deshidratados",
+      "porciones": "6 unidades",
+      "precio": "13.000"
+    },
+    {
+      "id": 18,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/g-red.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/g-red.svg",
+      "nombre": "Galletas de Red velvet",
+      "descripcion": "Galletas de terciopelo rojo con un suave sabor a cacao y chips de chocolate",
+      "porciones": "6 unidades",
+      "precio": "13.000"
+    },
+    {
+      "id": 19,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/g-vainilla.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/g-avena2.svg",
+      "nombre": "Galletas de vainilla",
+      "descripcion": "Galletas con sabor a vainilla y chips de chocolate",
+      "porciones": "6 unidades",
+      "precio": "12.000"
+    },
+    {
+      "id": 20,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/gm.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/gm-2.svg",
+      "nombre": "Galletas de mantequilla",
+      "descripcion": "Suaves sgalletas de mantequilla en forma de rosa",
+      "porciones": "12 unidades",
+      "precio": "15.000"
+    },
+    {
+      "id": 21,
+      "tipo": "galletas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/g-nutella.svg",
+      "fotoModal": "file:///C:/Users/DELL/Documents/KUEPA-FRONTEND/Dulce_trigo/src/utils/img/g-nutella2.svg",
+      "nombre": "Galletas de nutella",
+      "descripcion": "Galletas con sabor a pistacho y chips de chocolate",
+      "porciones": "6 unidades",
+      "precio": "15.000"
+    },
+    {
+      "id": 22,
+      "tipo": "torta",
+      "nombre": "Torta de moras y chocolate blanco",
+      "foto": "https://www.marialunarillos.com/blog/wp-content/uploads/2018/03/receta-layer-cake-moras-0.jpg",
+      "fotoModal": "https://www.marialunarillos.com/blog/wp-content/uploads/2018/03/receta-layer-cake-moras-5.jpg",
+      "descripcion": "Bizcocho de vainilla con trozos de mora, relleno de crema de moras",
+      "porciones": "8 porciones ",
+      "precio": "",
+      "precios": "$45.000"
+    }
+  ]
+  
+}
