@@ -19,9 +19,10 @@ function Especial() {
                 {
                     propnav.map(pn => (
                         <NavbarCatalogo
-                            p1={pn.icd}
+                            p1={pn.id}
                             p2={pn.titulo}
                             p3={pn.icon}
+                            p4={pn.direccion}
                         />
                     ))
                 }

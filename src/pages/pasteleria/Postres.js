@@ -5,10 +5,10 @@ import Header from '../../components/header/Header';
 import Navbar from '../../components/navbar/Navbar';
 import WhatsApp from '../../components/whatsApp/WhatsApp';
 import NavbarCatalogo from '../../components/navbarCatalago/NavbarCatalogo';
-import { getLast3PropNav } from '../../components/navbarCatalago/PropiedadesNav';
+import { getFirst3PropNav } from '../../components/navbarCatalago/PropiedadesNav';
 
 function Postres() {
-   const propnav = getLast3PropNav();
+   const propnav = getFirst3PropNav();
 
     return (
         <div>
@@ -19,9 +19,10 @@ function Postres() {
                 {
                     propnav.map(pn => (
                         <NavbarCatalogo
-                            p1={pn.icd}
+                            p1={pn.id}
                             p2={pn.titulo}
                             p3={pn.icon}
+                            p4={pn.direccion}
                         />
                     ))
                 }

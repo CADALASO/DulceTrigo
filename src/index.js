@@ -24,12 +24,12 @@ root.render(
     <Routes>
       <Route path='/' element={<Home />}></Route>
       <Route path='/home' element={<Navigate replace to={"/"} />}></Route>
-      <Route path='/especial' element={<Especial />}></Route>
-      <Route path='/integral' element={<Integral />}></Route>
-      <Route path='/pasabocas' element={<Pasabocas />}></Route>
-      <Route path='/galletas' element={<Galletas />}></Route>
-      <Route path='/postres' element={<Postres />}></Route>
-      <Route path='/tortas' element={<Tortas />}></Route>
+      <Route path='/panaderia/especial' element={<Especial />}></Route>
+      <Route path='/panaderia/integral' element={<Integral />}></Route>
+      <Route path='/panaderia/pasabocas' element={<Pasabocas />}></Route>
+      <Route path='/pasteleria/galletas' element={<Galletas />}></Route>
+      <Route path='/pasteleria/postres' element={<Postres />}></Route>
+      <Route path='/pasteleria/tortas' element={<Tortas />}></Route>
       <Route path='/acercade' element={<Acercade />}></Route>
       <Route path='/personalizados' element={<Personalizados />}></Route>
       <Route path='/contacto' element={<Contacto />}></Route>

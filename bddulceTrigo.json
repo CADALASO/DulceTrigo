@@ -213,13 +213,14 @@
     {
       "id": 22,
       "tipo": "torta",
-      "nombre": "Torta de moras ",
+      "nombre": "Torta de moras y chocolate blanco",
       "foto": "https://www.marialunarillos.com/blog/wp-content/uploads/2018/03/receta-layer-cake-moras-0.jpg",
       "fotoModal": "https://www.marialunarillos.com/blog/wp-content/uploads/2018/03/receta-layer-cake-moras-5.jpg",
       "descripcion": "Bizcocho de vainilla con trozos de mora, relleno de crema de moras",
       "porciones": "8 porciones ",
       "precio": "",
-      "precios": "$40.000"
+      "precios": "$45.000"
     }
   ]
+  
 }
