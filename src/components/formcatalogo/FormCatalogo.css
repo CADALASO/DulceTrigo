@@ -1,0 +1,73 @@
+.cont-imgform{
+  display: flex;
+  justify-content: center;
+  margin: -8% 0 4% 0;
+}
+
+.cont-imgform img{
+  width: 16rem;
+}
+
+.form-new-product {
+  font-family: 'delius';
+  backdrop-filter: blur(5px);
+  border-radius: 4px;
+  margin-top: 4%;
+}
+
+.form-new-product input,
+.form-select {
+  background-color: var(--pink-stick);
+}
+
+.form-new-product label {
+  color: var(--red-wine);
+  font-weight: bold;
+}
+
+.title-form {
+  font-family: 'breadley';
+  text-align: center;
+  margin: -3% 0 5% 0;
+  font-size: 45px;
+  color: var(--red-wine);
+}
+
+.btn-guardar {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-form {
+  background-color: var(--red-wine);
+  color: var(--cream);
+  font-size: 18px;
+  margin: 3% 1% 3% 1%;
+  padding: 1.5% 2%;
+}
+
+.btn-volver{
+  width: 105px;
+  margin: 2% 0s;
+}
+
+/*Modal editar*/
+
+.modal-edit{
+  width: 80%;
+}
+
+.title-modal-edit{
+  font-family: 'breadley';
+  font-size: 32px;
+  color: var(--red-wine);
+  margin: 0 auto;
+}
+
+.input-description{
+  border: 2px solid var(--red-wine);
+}
+
+.input-description:focus{
+  border: 2px solid var(--red-wine);
+}

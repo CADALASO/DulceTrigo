@@ -15,6 +15,7 @@ import Contacto from './pages/Contacto';
 import Compras from './pages/Compras';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import FormCatalogo from './pages/Form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -35,6 +36,7 @@ root.render(
       <Route path='/compras' element={<Compras />}></Route>
       <Route path='/login' element={<Login />}></Route>
       <Route path='/login/dashboard' element={<Dashboard />}></Route>
+      <Route path='/login/form' element={<FormCatalogo/>}></Route>
     </Routes>
   </BrowserRouter>
 );

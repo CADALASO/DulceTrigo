@@ -1,0 +1,131 @@
+.cont-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/img/fm.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10% auto;
+    /*background-color: #731627a4; /*f3f0e877*/
+    background: #f2ebdac1;
+    box-shadow: 3px 3px 9px var(--black-rose);
+    font-family: 'delius';
+    color: var(--red-wine);
+    text-shadow: 0.5px 0.5px 1px var(--red-wine);
+    font-size: 18px;
+    width: 300px;
+    height: 370px;
+    border-radius: 2%;
+}
+
+.form-login label{
+    padding-top: 5px;
+}
+
+.form-login input{
+    border-radius: 5px;
+    border: px solid var(--red-wine);
+    box-shadow: 1px 1px 5px var(--black-rose);
+    width: 170px;
+}
+
+.btn-volver-login{
+    display: flex;
+    margin-top: 5%;
+}
+
+.btn-login{
+    background-color: var(--red-wine);
+    color: var(--cream);
+    text-decoration-line: none;
+    margin: 5% 2%;
+    padding: 2% 3%;
+    border-radius: 5px;
+    width: 85px;
+    text-align: center;
+}
+
+.img-login{
+    width: 210px;
+    margin-top: -3%;
+}
+
+@media screen and (min-width:768px) {
+    .form-login{
+        margin:2% auto;
+        width: 400px;
+        height: 450px;
+    }
+    
+    .form-login label{
+        padding: 10px 0 5px 0;
+    }
+    
+    .form-login input{
+        width: 250px;
+    }
+    
+    
+    .img-login{
+        width: 255px;
+        margin-top: -7%;
+    }    
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .form-login{
+        margin:1% auto;
+        width: 480px;
+        height: 530px;
+    }
+    
+    .form-login label{
+        padding: 10px 0 8px 0;
+    }
+    
+    .form-login input{
+        width: 300px;
+    }
+    
+    
+    .img-login{
+        width: 290px;
+        margin-top: -7%;
+    }    
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .form-login{
+        margin:0.5% auto;
+        width: 480px;
+        height: 480px;
+    }
+
+    .form-login label{
+        padding: 8px 0 8px 0;
+    }
+    
+    .form-login input{
+        width: 280px;
+    }
+    
+    
+    .img-login{
+        width: 300px;
+        margin-top: -7%;
+    }    
+
+
+}
