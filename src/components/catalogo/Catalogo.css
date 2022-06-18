@@ -63,7 +63,7 @@
 
 .img-modal-catalog {
     width: 220px;
-    height: 200px;
+    height: 205px;
     box-shadow: 1px 1px 5px var(--black-rose);
 }
 
@@ -103,6 +103,11 @@
     margin: 1%;
     font-family: 'delius';
     box-shadow: 1px 1px 5px var(--black-rose);
+}
+
+.btn-modal:hover{
+    color: var(--cream);
+    background-color: var(--red-wine);
 }
 
 
@@ -190,7 +195,7 @@
     }
 
     .cont-body-modal {
-        margin-top: 1%;
+        margin-top: -1%;
     }
 
 }

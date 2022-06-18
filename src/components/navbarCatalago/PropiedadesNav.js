@@ -24,21 +24,21 @@ let contnav = [
         "id": 4,
         "titulo": "Especiales",
         "direccion": "/panaderia/especial",
-        "icon": "https://marenco-galvis.co/wp-content/uploads/2020/07/pasabocas.png"
+        "icon": "https://cdn-icons-png.flaticon.com/512/877/877951.png"
     },
 
     {
         "id": 5,
         "titulo": "Dietéticos",
         "direccion": "/panaderia/integral",
-        "icon": "https://i.pinimg.com/originals/4e/01/02/4e01024f9fe6f0f4537810eb9074f3a8.png"
+        "icon": "https://cdn-icons-png.flaticon.com/128/3014/3014502.png"
     },
 
     {
         "id": 6,
         "titulo": "Pasabocas",
         "direccion": "/panaderia/pasabocas",
-        "icon": "https://img.favpng.com/9/21/4/croissant-scalable-vector-graphics-bread-icon-png-favpng-n1Z8cj97gdnixRhVSbjTGMrvD.jpg"
+        "icon": "https://cdn-icons.flaticon.com/png/128/3071/premium/3071257.png?token=exp=1655535341~hmac=cb2afa9bcc08d8300fc1c99e5b02f5a8"
     }
 ]
 

@@ -27,7 +27,7 @@ function Tortas() {
 
     const [dataModal, setDataModal] = useState({});
 
-    const [show, setShow] = useState([false]);
+    const [show, setShow] = useState(false);
     const handleClose = () => { setShow(false); }
     const handleOpen = () => { setShow(true); }
 
