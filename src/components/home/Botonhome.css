@@ -178,7 +178,6 @@
 
 @media screen and (min-width:1024px){
     .home h2{
-        font-size: 40px;
         margin-top: 5px;
     }
     .hr, .hrdown{
@@ -200,9 +199,7 @@
     }
 
 @media screen and (min-width:1200px){
-    .home h2{
-        font-size: 45px;
-    }
+
     .hr, .hrdown{
         width: 55%;
         margin: 40px auto 30px 16rem;

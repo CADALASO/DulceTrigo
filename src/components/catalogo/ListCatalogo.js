@@ -24,7 +24,7 @@ function ListCatalogo() {
 
 
     /*Agregar una constante para actualizar el estado del modal*/
-    const [show, setShow] = useState([false]);
+    const [show, setShow] = useState(false);
     const handleClose = () => { setShow(false); }
     const handleOpen = () => { setShow(true); }
 
@@ -66,7 +66,6 @@ function ListCatalogo() {
     }, [upList]);
 
     console.log(list);
-
     return (
         <div className='cont-table'>
             <table className='table table-striped'>
@@ -113,7 +112,7 @@ function ListCatalogo() {
                                     <Form.Select className='form-select'
                                         name="tipo"
                                         onChange={handleChangeModal}>
-                                        <option>Seleccione...</option>
+                                        <option>{dataModal.tipo}</option>
                                         <option value="especial">Panes especiales</option>
                                         <option value="dietetico">Dietético</option>
                                         <option value="pasabocas">Pasabocas</option>
@@ -168,7 +167,7 @@ function ListCatalogo() {
                                         type="text"
                                         name="precios"
                                         onChange={handleChangeModal}
-                                        value={dataModal.precios}
+                                        value={dataModal.precio}
                                     />
                                 </Form.Group>
                             </div>
