@@ -9,7 +9,10 @@ function Dashboard() {
         <div>
             <div className="cont-dash">
                 <img src={Logo} className='logo-form' />
-                <Link to="/login/form" className="btn btn-registrar">Registrar nuevo producto</Link>
+                <div className="cont-btn-dash">
+                    <Link to="/login/form" className="btn btn-registrar">Registrar nuevo producto</Link>
+                    <Link to='/login' className='btn-cerrar'><i class="bi bi-door-closed"></i></Link>
+                </div>
             </div>
             <h1 className="title-dashboard text-center">Nuevos productos Dulce trigo</h1>
             <ListCatalogo />

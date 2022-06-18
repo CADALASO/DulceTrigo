@@ -9,7 +9,7 @@ function Botonhome() {
             <img src={hr} alt="linea" className='hr'/>
             <div className='buttons'>
                 <button className='boton1 cake'>
-                    <Link to="/galletas">
+                    <Link to="/pasteleria/tortas">
                         <div>
                             <span>
                                 <h1 className='thome'>Pasteleria</h1>
@@ -19,7 +19,7 @@ function Botonhome() {
                     </Link>
                 </button>
                 <button className='boton2 bakery'>
-                    <Link to="/especial">
+                    <Link to="/panaderia/especial">
                         <div>
                             <span>
                                 <h1 className='thome'>Panaderia</h1>

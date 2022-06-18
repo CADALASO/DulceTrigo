@@ -14,7 +14,7 @@ function Integral() {
         <div>
         <Navbar/>
         <Header/>
-        <h2 className='title-page'>Integrales</h2>
+        <h2 className='title-page'>Dietéticos</h2>
             <div>
                 {
                     propnav.map(pn => (
