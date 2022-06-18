@@ -4,7 +4,7 @@
       "id": 1,
       "tipo": "torta",
       "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/redvelvet.svg",
-      "fotoModal": "https://drive.google.com/file/d/1H-P5V-6Ke9UD_N3bOOUi_nlQNeWlkhr3/view?usp=sharing",
+      "fotoModal": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=651&q=80",
       "nombre": "Red velvet",
       "descripcion": "Bizcocho de terciopelo rojo con un suave sabor a cacao relleno de frosting de queso crema",
       "porciones": "8 porciones",
@@ -33,8 +33,8 @@
     {
       "id": 4,
       "tipo": "torta",
-      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/selvaNegra.svg",
-      "fotoModal": "https://dulcetrigo.000webhostapp.com/src/utils/img/selvaNegra.svg",
+      "foto": "https://www.facebook.com/photo/?fbid=3564814773745162&set=a.1448031915423469",
+      "fotoModal": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2VsdmElMjBuZWdyYSUyMGNha2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
       "nombre": "Selva negra",
       "descripcion": "Bizcocho de chocolate relleno con crema chantilly sabor a vainilla y salsa de amarenas. Con cerezas amarenas y chocolate triturado",
       "porciones": "8 porciones",
@@ -220,6 +220,276 @@
       "porciones": "8 porciones ",
       "precio": "",
       "precios": "$45.000"
+    },
+    {
+      "id": 24,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-hamburguesa-oregano.svg",
+      "fotoModal": "https://img-global.cpcdn.com/recipes/5c67f1c0e4d6cd8c/680x482cq70/pan-de-ajo-foto-principal.webp",
+      "nombre": "Pan hamburguesa de orégano",
+      "descripcion": "Delicioso pan para hamburguesa con orégano",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 25,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-brioche.svg",
+      "fotoModal": "http://www.fosterfood.com/axos/imagenes/55050623-pan-hamburguesa-brioche-12cm--85gr-50und-1.jpg   ",
+      "nombre": "Pan hamburguesa tipo brioche",
+      "descripcion": "Delicioso pan para hamburguesa tipo brioche, a base de huevo y mantequilla para mayor suavidad",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 26,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-hamburguesa-especial.svg",
+      "fotoModal": "https://yangues.files.wordpress.com/2013/11/mollete2.jpg?w=300&h=199",
+      "nombre": "Pan de hamburguesa especial",
+      "descripcion": "Delicioso pan para hamburguesa, de máxima suavidad tipo blanco con harina espolvoreada",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 27,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-perro-oregano.svg",
+      "fotoModal": "https://scontent-bog1-1.xx.fbcdn.net/v/t1.6435-9/101222114_114685296929630_1192797355372445696_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_eui2=AeH_xeWiR59Olo-NRdpvbY0w8dn2hIh5c4vx2faEiHlzixhaOLi4WCn0E9o-oeyEuhU&_nc_ohc=0mWFwIqSIywAX9uQWWw&_nc_ht=scontent-bog1-1.xx&oh=00_AT-eEDQTiVHAAJ8P72p0O0btiLCrOKvPabGtKDzY8od2bQ&oe=62D1C17F",
+      "nombre": "Pan para perro con orégano",
+      "descripcion": " Delicioso pan para perro con orégano",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 28,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-perro-ajonjoli.svg",
+      "fotoModal": "https://s.cornershopapp.com/product-images/4866381.jpg?versionId=sstS2cJXeqeWTAH5rGcjY5zrflXMh8XF",
+      "nombre": "Pan para perro con ajonjolí",
+      "descripcion": " Delicioso y clásico pan para perro con ajonjolí",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 29,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-perro-especial.svg",
+      "fotoModal": "https://media.nidux.net/pull/599/800/13194/35-product-60dbb781975b2-img-8768.jpg",
+      "nombre": "Pan para perro especial",
+      "descripcion": " Delicioso pan blanco para perro espolvoreado con harina",
+      "porciones": "6 unidades",
+      "precio": "3.500"
+    },
+    {
+      "id": 30,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-sandwich-oregano.svg",
+      "fotoModal": "https://img.freepik.com/foto-gratis/sandwich-mortadela-lechuga-pan-cubierto-oregano-sobre-plato-blanco-salsa-pimienta-mostaza-sobre-mesa-toalla-negra-enfoque-selectivo_309761-615.jpg?w=740",
+      "nombre": "Pan para sándwich con orégano",
+      "descripcion": " Delicioso pan para sándwich con orégano x 30 cm",
+      "porciones": "6 unidades",
+      "precio": "8.000"
+    },
+    {
+      "id": 31,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-sandwich-especial.svg",
+      "fotoModal": "https://www.terramiticapark.com/wp-content/uploads/2021/05/eolo-listado.jpg",
+      "nombre": "Pan para sándwich especial",
+      "descripcion": " Delicioso pan blanco para sándwich con harina espolvoreada x 30cm ",
+      "porciones": "6 unidades",
+      "precio": "8.000"
+    },
+    {
+      "id": 32,
+      "tipo": "especial",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-tajado.svg",
+      "fotoModal": "https://www.abc.com.py/resizer/-xYMu0oCp9U1ofUwXRldDq_0Wkk=/fit-in/770x495/smart/arc-anglerfish-arc2-prod-abccolor.s3.amazonaws.com/public/SYSXA7PRYVDN3DHHB65PUEALHQ.jpg",
+      "nombre": "Pan tajado pullman",
+      "descripcion": " Delicioso pan blanco tajado tipo pullman",
+      "porciones": "n/a",
+      "precio": "4.000"
+    },
+    {
+      "id": 33,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-avena.svg",
+      "fotoModal": "https://cadenaser.com/resizer/RU2QF1BX4xL02j5buRX_6atfncM=/736x552/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/53FKLEKDL5LRZAPI4XRBXIVOVQ.jpg",
+      "nombre": "Pan de avena",
+      "descripcion": " Delicioso pan con hojuelas de avena con alto aporte de hierro, calcio y proteínas",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 34,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-soya.svg",
+      "fotoModal": "https://www.cocinapastelera.com/wp-content/uploads/2017/06/pan-integral-con-semillas-whole-wheat-bread.jpg",
+      "nombre": "Pan de soya",
+      "descripcion": " Delicioso pan realizado con harina de soya con alto aporte de proteínas y fibra",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 35,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-multicereal.svg",
+      "fotoModal": "https://unareceta.com/wp-content/uploads/2016/08/receta-pan-casero-integral.jpg",
+      "nombre": "Pan multicereales",
+      "descripcion": " Delicioso pan hecho con trigo, linaza, centeno, salvado de trigo, sémola de maíz, avena, sésamo, cebada, y centeno, para un gran aporte de fibra, proteínas y vitaminas ",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 36,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-quinoa.svg",
+      "fotoModal": "https://bienvivirvibes.com/wp-content/uploads/2020/04/pan-de-quinoa.jpg",
+      "nombre": "Pan de quínoa",
+      "descripcion": " Delicioso pan hecho con harina de quínoa rico en vitaminas del grupo B y E el cual ayuda a depurar el hígado y tiene acción tonificante y antiinflamatoria",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 37,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-avena-miel.svg",
+      "fotoModal": "https://i.pinimg.com/564x/5d/bd/c4/5dbdc48478c35ed10ecef8633f374f56.jpg",
+      "nombre": "Pan de avena y miel",
+      "descripcion": " Delicioso pan con hojuelas de avena y endulzado con miel que brinda alto aporte de hierro, calcio y proteínas",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 38,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/mogolla-multigranos.svg",
+      "fotoModal": "https://la-canasta.org/wp-content/uploads/2019/02/PAN001.jpg",
+      "nombre": "Mogollas multigranos",
+      "descripcion": " La mogolla multigranos es ideal para todo tipo de personas y ayuda a una muy buena digestión",
+      "porciones": "10 unidades",
+      "precio": "5.000"
+    },
+    {
+      "id": 39,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/tabacos.svg",
+      "fotoModal": "https://blog.oncosalud.pe/hs-fs/hubfs/shutterstock_360476990.jpg?width=1170&name=shutterstock_360476990.jpg",
+      "nombre": "Tabacos integrales",
+      "descripcion": " Delicioso pan en forma de tabacos hecho con harina no refinada y salvado que aporta gran cantidad de fibra",
+      "porciones": "6 unidades",
+      "precio": "2.000"
+    },
+    {
+      "id": 40,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-linaza.svg",
+      "fotoModal": "https://www.lusergo.com/wp-content/uploads/2017/02/LinazaWeb5-1-960x600.jpg",
+      "nombre": "Pan de linaza",
+      "descripcion": " Delicioso pan hecho con harina de linaza rico en fibra, omega 3 y 6 ",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 41,
+      "tipo": "integral",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-estevia.svg",
+      "fotoModal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJx7o2erUQbLQPE97JX6_DWLCmBA4qx6OZxw&usqp=CAU",
+      "nombre": "Pan endulzado con Stevia",
+      "descripcion": " Delicioso pan integral multicereal endulzado unicamente con Stevia",
+      "porciones": "n/a",
+      "precio": "3.000"
+    },
+    {
+      "id": 42,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/palitroques.svg",
+      "fotoModal": "https://productospullpan.com/wp-content/uploads/2017/09/DSC_0053-650x400.jpg",
+      "nombre": "Palitroques",
+      "descripcion": " Deliciosos palitos de pan tostado de vainilla",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 43,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/mini-croissants.svg",
+      "fotoModal": "https://canalcocina.es/medias/_cache/zoom-c4088bec4efeea629e06e3c453472064-920-518.jpg",
+      "nombre": "Mini croissants",
+      "descripcion": " Deliciosos mini croissants de diferentes rellenos",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 44,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-alineado.svg",
+      "fotoModal": "https://cdn.shopify.com/s/files/1/0283/8895/0090/products/panes-alinados_1024x1024.png?v=1585983596",
+      "nombre": "Pan alineado",
+      "descripcion": " Delicioso pan alineado sin levadura",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 45,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/liberales.svg",
+      "fotoModal": "https://peterpan24horas.com/wp-content/uploads/2022/01/DSC_0186-1536x1024.jpg",
+      "nombre": "Liberales",
+      "descripcion": " Deliciosos liberales rellenos de arequipes",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 46,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/palitos-queso.svg",
+      "fotoModal": "https://deliciasbenditas.com/wp-content/uploads/2018/10/palito-de-queso-mediano.jpg",
+      "nombre": "Palitos de queso",
+      "descripcion": " Deliciosos palitos de hojaldre rellenos de queso",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 47,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/coquitos.svg",
+      "fotoModal": "https://www.johaprato.com/files/styles/immagini_ricette/public/coquitos-fotos.png?itok=CGtnsmwA",
+      "nombre": "Coquitos",
+      "descripcion": " Deliciosos coquitos crocantes y horneados",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 48,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pasabocas.svg",
+      "fotoModal": "https://www.alimentos-santillana.com/assets/media/productos/productos-panaderia-y-pasteleria/bocadillo/12-copia.jpg",
+      "nombre": "Pasabocas de bocadillo",
+      "descripcion": " Deliciosos pasabocas con azúcar rellenos de bocadillo",
+      "porciones": "10 unidades",
+      "precio": "3.000"
+    },
+    {
+      "id": 49,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/flautas.svg",
+      "fotoModal": "https://i.ytimg.com/vi/XTMqLUBaV-U/maxresdefault.jpg  ",
+      "nombre": "Flautas",
+      "descripcion": " Deliciosas flautas horneadas rellenas de bocadillo",
+      "porciones": "10 unidades",
+      "precio": "5.000"
+    },
+    {
+      "id": 50,
+      "tipo": "pasabocas",
+      "foto": "https://dulcetrigo.000webhostapp.com/src/utils/img/pan-calentano.svg",
+      "fotoModal": "https://panalbeg.com.co/wp-content/uploads/2020/08/calentano-pan-panaderia-domicilio-delicioso-calidad.jpg",
+      "nombre": "Pan calentano",
+      "descripcion": " Deliciosos panes a base de harina de maíz y de trigo horneados",
+      "porciones": "10 unidades",
+      "precio": "3.000"
     }
   ]
 }

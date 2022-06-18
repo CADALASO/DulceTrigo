@@ -39,7 +39,32 @@
     margin-top: 5%;
     margin-bottom: 4%;
   }
+
+  .cont-btn-dash{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 3%;
+  }
   
+.btn-cerrar{
+  text-decoration-line: none;
+  color: var(--cream);
+  background-color: var(--red-wine);
+  font-family: 'delius';
+  margin: 1%;
+  padding: 1.4% 1%;
+  font-size: 22px;
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+}
+
+.btn-cerrar:hover{
+  background-color: var(--white);
+  color: var(--red-wine);
+  border: 1px solid var(--black-rose) ;
+}
+
   .cont-dash{
     display: flex;
     justify-content: space-between;
@@ -53,10 +78,11 @@
   
   .btn-registrar{
     font-family: 'delius';
-    font-size: 19px;
+    font-size: 18px;
     background-color: var(--red-wine);
     color: var(--cream);
-    margin: 2%;
+    width: 246px;
+    margin: 1%;
   }
   
   .title-dashboard {

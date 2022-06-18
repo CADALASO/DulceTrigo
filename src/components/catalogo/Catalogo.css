@@ -29,54 +29,48 @@
     font-size: 15px;
 }
 
+.card-catalogo {
+    background-color: transparent;
+}
+
 /*Modal*/
 
-.m1 {
-    background-color: rgba(255, 255, 255, 0.297);
-}
-
 .box-modal {
-    /*background-color: #f3eedade;*/
-    background: url(../../assets/img/fondo-modal-v.svg);
+    background-image: url(../../assets/img/fondo-modal-v.svg);
     background-size: cover;
-    box-shadow: 1px 1px 5px var(--black-rose);
 }
 
-.ventana {
-    display: flex;
-    flex-direction: column;
-}
-
-.ventana img {
-    width: 250px;
-    margin: auto;
-}
-
-.modalTitle {
+.text-modal h4 {
     padding-top: 8%;
     font-family: 'delius';
     color: var(--red-wine);
-    font-weight: bold;
+    text-align: center;
 }
 
-.modalP {
-    padding: 8px;
-    color: var(--black-rose);
-    text-shadow: 0.5px 0.5px 1px var(--black-rose);
+.cont-body-modal {
+    margin-top: 18%;
+}
+
+.cont-body-modal p {
+    color: var(--cream);
+    font-size: 14px;
+}
+
+.cont-img-modal {
+    display: flex;
+    justify-content: center;
+}
+
+.img-modal-catalog {
+    width: 220px;
+    height: 200px;
+    box-shadow: 1px 1px 5px var(--black-rose);
 }
 
 .option-cakes label {
     font-family: 'delius';
     font-size: 14px;
     color: var(--cream);
-}
-
-.option-cakes p {
-    color: var(--cream);
-}
-
-.option1 {
-    margin: auto;
 }
 
 .btn-window-cakes {
@@ -89,7 +83,7 @@
     border-radius: 50%;
     background-color: var(--cream);
     border: 1px solid var(--black-rose);
-    padding: 2%;
+    padding: 1% 2%;
     margin-bottom: 5%;
 }
 
@@ -103,43 +97,12 @@
     color: var(--cream);
 }
 
-.btn-window-cakes2 {
-    display: flex;
-    justify-content: center;
-    padding: 1% 0 5% 0;
-}
-
-.btn-window-cakes2 button {
-    border-radius: 50%;
-    border: 1px solid var(--black-rose);
-    padding: 2%;
-    margin-bottom: 2%;
-}
-
-.btn-window-cakes2 i {
-    color: var(--black-rose);
-}
-
-.btn-window-cakes2 h3 {
-    font-family: 'delius';
-    padding: 5px;
-}
-
-.modalCarrito {
-    border: 2px solid var(--red-wine);
+.btn-modal {
     background-color: var(--cream);
+    color: var(--red-wine);
+    margin: 1%;
     font-family: 'delius';
-    padding: 0.2em 0.5em;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    color: #333;
-    border-radius: 0.4em;
-}
-
-.btn-car {
-    margin: -1% 0 6% 0;
-    justify-content: flex-start;
+    box-shadow: 1px 1px 5px var(--black-rose);
 }
 
 
@@ -160,18 +123,36 @@
 
     /*Modal*/
 
-    .ventana img {
-        width: 250px;
-        margin-left: 4%;
+    .cont-body-modal {
+        margin-top: 1.5%;
     }
 
-    .modalTitle {
-        padding-top: 15px;
-        font-size: 20px;
+    .cont-body-modal p {
+        color: var(--black-rose);
+        font-size: 16px;
     }
 
-    .modalP {
-        padding: 15px;
+
+    .btn-window-cakes button {
+        padding: 1% 3%;
+    }
+
+    .btn-window-cakes i {
+        color: var(--black-rose);
+    }
+
+    .btn-window-cakes h3 {
+        font-family: 'delius';
+        padding: 5px;
+        color: var(--black-rose);
+    }
+
+    .btn-modal {
+        background-color: var(--cream);
+        color: var(--red-wine);
+        margin: 1%;
+        font-family: 'delius';
+        box-shadow: 1px 1px 5px var(--black-rose);
     }
 
 
@@ -204,95 +185,12 @@
 
     /*Modal*/
 
-    .box-modal {
-        background: url(../../assets/img/fondo-modal-h.svg);
-        background-size: cover;
-        margin-left: -25%;
-        padding: 5%;
-        width: 600px;
-        height: 550px;
-    }
-
-    .ventana {
-        display: flex;
-        justify-content: center;
-    }
-
-    .ventana img {
-        margin: -7% -5% 0 -5%;
-        padding-top: -1%;
-        width: 350px;
-    }
-
-    .cont-modal1 {
-        display: flex;
-        margin: 10% 3% 2% 5%;
-    }
-
-    .cont-modal1 p{
-        color: var(--cream);
-        padding-left: 18px;
-    }
-
-    .modalTitle {
-        margin-top: -14%;
-        font-size: 26px;
-        margin-right: 10px;
-        color: var(--cream);
-    }
-
-    .modalP {
-        padding: 3.8px;
-        margin-left: -2%;
-        font-size: 20px;
-    }
-
-    .option-cakes {
-        display: flex;
-        margin: -1% -2% 3% -2%;
-        padding: 10PX;
-    }
-
-    .option-cakes label {
-        font-size: 22px;
-        color: var(--cream);
-    }
-
-    .option-cakes p {
-        margin: 4px 3px 10px 10px;
-        color: var(--cream);
-    }
-
-    .cont-modal2 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .btn-window-cakes {
-        margin: auto;
-        padding: 1% -2% 5% 10%;
-    }
-
     .btn-window-cakes button {
-        border-radius: 50%;
-        background-color: var(--cream);
-        border: 1px solid var(--black-rose);
-        padding: 4%;
-        margin-bottom: 2%;
-        height: 45px;
-        width: 45px;
+        padding: 1% 4%;
     }
 
-    .btn-window-cakes h3 {
-        font-family: 'delius';
-        padding: 8px;
-        color: var(--black-rose);
-        font-size: 28px;
-    }
-
-
-    .option1 {
-        margin: 0.5em 0.2em 1.5em 1.5em;
+    .cont-body-modal {
+        margin-top: 1%;
     }
 
 }
@@ -317,48 +215,5 @@
     .tortas p {
         font-size: 22px;
     }
-
-    /*Modal*/
-
-    .box-modal {
-        margin-left: -25%;
-        padding: 5%;
-        width: 800px;
-        height: 510px;
-    }
-
-    .ventana img {
-        margin: -8% 2% 0 -1%;
-        width: 350px;
-    }
-
-    .option-cakes {
-        margin-left: -1%;
-        margin-top: -5%;
-    }
-
-    .option-cakes p {
-        margin: 4px 5px 6px 6px;
-    }
-
-    .modalCarrito {
-        padding: 0.4em 0.8em;
-        font-size: 20px;
-    }
-
-    .modalTitle {
-        padding-top: 6%;
-    }
-
-    .btn-window-cakes {
-        margin-top: 1%;
-    }
-
-    .btn-window-cakes h3 {
-        padding: 4px 5px;
-        font-size: 35px;
-    }
-
-
 
 }
