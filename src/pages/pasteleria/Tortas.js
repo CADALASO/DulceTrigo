@@ -10,6 +10,9 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import CatTortas from '../../components/catalogo/CatTortas';
 import { Row, Modal } from 'react-bootstrap';
+import { StateProvider } from '../../StateProvider';
+import reducer, {initialState} from '../../reducer';
+
 
 
 function Tortas() {
@@ -27,7 +30,7 @@ function Tortas() {
 
     const [dataModal, setDataModal] = useState({});
 
-    const [show, setShow] = useState([false]);
+    const [show, setShow] = useState(false);
     const handleClose = () => { setShow(false); }
     const handleOpen = () => { setShow(true); }
 
@@ -73,6 +76,8 @@ function Tortas() {
                     </Row>
                 }
             </div >
+
+            <StateProvider initialState={initialState} reducer={reducer}>
             <Modal show={show} onHide={handleClose}>
                 <div className='box-modal'>
                     <Modal.Header>
@@ -100,7 +105,7 @@ function Tortas() {
                         </div>
 
                         <div className='d-flex justify-content-center'>
-                            <button className='btn btn-modal' type="submit">
+                            <button className='btn btn-modal' type="submit"  >
                                 Agregar al carrito
                             </button>
                             <button className='btn btn-modal' onClick={handleClose}>
@@ -110,6 +115,8 @@ function Tortas() {
                     </Modal.Body>
                 </div>
             </Modal>
+            </StateProvider>
+
             <WhatsApp />
             <Footer />
 

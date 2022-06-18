@@ -1,0 +1,150 @@
+.table tr,
+.table th,
+.table td {
+    color: var(--red-wine);
+    border: 2px solid var(--red-wine);
+}
+.table thead {
+    display: none;
+}
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.table th {
+    background-color: var(--cream);
+    color: var(--red-wine);
+    border: 2px solid var(--red-wine);
+    padding: 5px ;
+    font-family: 'breadley';
+    text-align: center  ;
+    
+}
+
+.table tr {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.table td {
+    display: block;
+    text-align: right;
+    border-bottom: 1px solid var(--red-wine);
+    font-size: 20px;
+}
+.ttshop{
+    font-family: 'breadley';
+    color: var(--red-wine);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px var(--black-rose);
+    margin: 1.5rem auto;
+}
+.table{
+    border-collapse: collapse;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+.table td::before{
+    content: attr(data-label);
+    font-weight: bold;
+    float: left;
+}
+.td::before{
+    padding-top: 2.5rem;
+}
+.imgcompras{
+    width:  100px;
+}
+
+.pay{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-shop {
+    background-color: var(--red-wine);
+    color: var(--white);
+    border-radius: 70px;
+    width: 80px;
+    height: 25px;
+    margin: 20px 20px;
+    font-family: 'delius';
+    box-shadow: 2px 2px 2px var(--black-rose);
+}
+@media screen and (min-width:768px){
+    h1{
+        font-size: 50px;
+        margin-bottom: 2rem;
+    }
+    .buttons-shop{
+        font-size: 16px;
+        height: 26px;
+        width: 100px;
+        margin: 2rem 4rem;
+    }
+    .table th{
+        font-size: 25px;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    h1{
+        font-size: 60px;
+        margin-bottom: 3rem;
+    }
+    .table thead {
+        display: table-header-group;
+    }
+    .table th{
+        font-size: 30px;
+    }
+    .table td {
+        font-size: 20px;
+        display: table-cell;
+        text-align: center;
+    }
+
+    .table tr {
+        margin-bottom: 0px;
+        display: table-row;
+    }
+
+    .table td::before {
+        content: none;
+        font-weight: 0;
+        float: 0;
+    }
+    .final-items td{
+        text-align: right;
+        padding: 3px;
+    }
+    .buttons-shop{
+        font-size: 20px;
+        height: 32px;
+        width: 124px;
+        margin: 2rem 6rem;
+    }
+
+}
+@media screen and (min-width:1200px){
+    h1{
+        font-size: 70px;
+        margin-bottom: 3rem;
+    }
+    .table th{
+        font-size: 35px;
+    }
+    .buttons-shop{
+        font-size: 25px;
+        height: 35px;
+        width: 130px;
+        margin: 2rem 8rem;
+    }
+    .table td {
+        font-size: 25px;
+    }
+}

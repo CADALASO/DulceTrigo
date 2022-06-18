@@ -1,4 +1,5 @@
 import React from 'react';
+import Carrito from '../components/carrito/Carrito';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Navbar from '../components/navbar/Navbar';
@@ -9,6 +10,7 @@ function Compras() {
         <div>
         <Navbar/>
         <Header/>
+        <Carrito/>
         <WhatsApp/>
         <Footer/>
         </div>
