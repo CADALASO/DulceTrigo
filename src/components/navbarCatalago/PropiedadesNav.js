@@ -3,14 +3,14 @@ let contnav = [
         "id": 1,
         "titulo": "Tortas",
         "direccion": "/pasteleria/tortas",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2682/premium/2682340.png?token=exp=1655495979~hmac=6af2fa9a002d1aa5bed610d0e8907f76"
+        "icon": "https://cdn-icons-png.flaticon.com/512/3531/3531332.png"
     },
 
     {
         "id": 2,
         "titulo": "Postres",
         "direccion": "/pasteleria/postres",
-        "icon": "https://cdn-icons.flaticon.com/png/512/2353/premium/2353761.png?token=exp=1655495897~hmac=2e74331999f7c428627fd649eef9e070"
+        "icon": "https://cdn-icons-png.flaticon.com/512/1548/1548976.png"
     },
 
     {
@@ -38,7 +38,7 @@ let contnav = [
         "id": 6,
         "titulo": "Pasabocas",
         "direccion": "/panaderia/pasabocas",
-        "icon": "https://cdn-icons.flaticon.com/png/128/3071/premium/3071257.png?token=exp=1655535341~hmac=cb2afa9bcc08d8300fc1c99e5b02f5a8"
+        "icon": "https://cdn-icons-png.flaticon.com/512/2164/2164014.png"
     }
 ]
 
