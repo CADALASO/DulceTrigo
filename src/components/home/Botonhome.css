@@ -2,19 +2,20 @@
     font-family: 'delius';  
     text-align: center ; 
     font-size: 30px;
-    margin-top: 2rem;
+    margin: 2rem auto;
     color: var(--black-rose);
     font-weight: bold;
 }
-.hr{
-    width: 75%;
-    margin: 20px auto 15px 3.7rem;
+.lineahome{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.hrdown{
-    width: 75%;
-    margin-left: 3.7rem;
-    margin-bottom: 5px;
+.line-horizontalh{
+    width: 60%;
+    padding: 2rem 0;
 }
+
 .buttons{
     display: flex;
     flex-direction: column;

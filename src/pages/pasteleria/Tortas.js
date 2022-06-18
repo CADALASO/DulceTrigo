@@ -10,9 +10,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import CatTortas from '../../components/catalogo/CatTortas';
 import { Row, Modal } from 'react-bootstrap';
-import { StateProvider } from '../../StateProvider';
-import reducer, {initialState} from '../../reducer';
-
+import Carrito from '../../components/carrito/Carrito';
+import Swal from 'sweetalert2';
 
 
 function Tortas() {
@@ -20,7 +19,7 @@ function Tortas() {
     const propnav = getFirst3PropNav();
 
     const url = "http://localhost:5000/catalogo?tipo_like=torta";
-
+    const url1 = "http://localhost:5000/carrito";
     const getData = async () => {
         const response = axios.get(url);
         return response;
@@ -40,8 +39,29 @@ function Tortas() {
             setList(response.data);
         });
     });
+  
+    const handleSubmit = async (e) => {
+        e.preventDefault();
 
-
+        const response = await axios.put(`${url}/${dataModal.id}`,dataModal);
+    if (response.status === 200) {
+        Swal.fire(
+            'Cambio guardado!',
+            `Tu producto: <strong>
+            ${response.data.nombre}
+            </strong>
+            ha sido editado exitosamente!`,
+            'success'
+        )
+        handleClose();
+    } else {
+        Swal.fire(
+            'Error!',
+            `Hubo un problema al editar tu producto!`,
+            'error'
+        )
+    }
+}
     return (
         <div>
             <Navbar />
@@ -76,9 +96,7 @@ function Tortas() {
                     </Row>
                 }
             </div >
-
-            <StateProvider initialState={initialState} reducer={reducer}>
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} onClick={handleSubmit}>
                 <div className='box-modal'>
                     <Modal.Header>
                         <Modal.Title className='title-modal-edit'>
@@ -105,7 +123,7 @@ function Tortas() {
                         </div>
 
                         <div className='d-flex justify-content-center'>
-                            <button className='btn btn-modal' type="submit"  >
+                            <button className='btn btn-modal' type="submit" >
                                 Agregar al carrito
                             </button>
                             <button className='btn btn-modal' onClick={handleClose}>
@@ -115,8 +133,6 @@ function Tortas() {
                     </Modal.Body>
                 </div>
             </Modal>
-            </StateProvider>
-
             <WhatsApp />
             <Footer />
 

@@ -1,12 +1,14 @@
 import './Botonhome.css';
-import hr from '../../assets/img/linea-nav.svg';
+import Line from '../../assets/img/Line.png';
 import { Link } from 'react-router-dom';
 
 function Botonhome() {
     return (
         <div className='home'>
             <h2>¿De que te antojaste hoy?</h2>
-            <img src={hr} alt="linea" className='hr'/>
+            <div className='lineahome'>
+            <img src={Line} alt="Line" class="line-horizontalh" />
+            </div>
             <div className='buttons'>
                 <button className='boton1 cake'>
                     <Link to="/pasteleria/tortas">
@@ -29,7 +31,9 @@ function Botonhome() {
                     </Link>
                 </button>   
             </div>
-            <img src={hr} alt="linea" className='hrdown'/>
+            <div className='lineahome'>
+            <img src={Line} alt="Line" className='line-horizontalh'  />
+            </div>
         </div>
 
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css'
 import logo from '../../assets/img/LogoDulceTrigo.svg'
 import { Link } from 'react-router-dom'
+import { Badge } from '@mui/material';
 
 function Header() {
     return (
@@ -13,7 +14,9 @@ function Header() {
                     <input type="search" id="search" className='icon-search' name="search" placeholder=" " />
                     <Link to="/compras">
                         <button type="submit">
+                        <Badge badgeContent={4} color="secondary" className='shop'>
                             <i class="fa-solid fa-cart-shopping shop"></i>
+                            </Badge>
                         </button>
                     </Link>
                     <Link to="/login">
