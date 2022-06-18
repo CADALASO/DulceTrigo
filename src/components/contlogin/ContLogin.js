@@ -45,7 +45,7 @@ function ContLogin() {
                 <label for='user'>Usuario</label>
                 <input name='user' value={input.user} onChange={validacionValue} />
                 <label for='password'>Contraseña</label>
-                <input name='password' value={input.password} onChange={validacionValue} />
+                <input name='password' type="password" value={input.password} onChange={validacionValue} />
                 <div className='btn-volver-login'>
                     <button className='btn-login' onClick={validacionlogin}>Ingresar</button>
                     <Link to='/' className='btn-login'>Volver</Link>

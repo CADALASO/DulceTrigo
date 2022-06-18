@@ -119,7 +119,7 @@ function FormCatalogo() {
                                     type="text"
                                     name="precios"
                                     onChange={handleChange}
-                                    value={data.precios}
+                                    value={data.precio}
                                 />
                             </Form.Group>
                         </div>
