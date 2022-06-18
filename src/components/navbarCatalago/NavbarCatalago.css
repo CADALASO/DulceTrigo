@@ -21,8 +21,8 @@
 }
 
 .btn-pasteleria img {
-    width: 25px;
-    margin-right: 5px;
+    width: 23px;
+    margin:0 5px 3px 0;
 }
 
 .itemcata {
@@ -40,15 +40,6 @@
 
 .border-btn {
     border: 2px solid var(--pink-stick);
-}
-
-.seleccion {
-    display: flex;
-    flex-direction: row;
-    border-top: 3px solid var(--black-rose);
-    border-right: 3px solid var(--black-rose);
-    border-bottom: 3px solid var(--black-rose);
-    border-left: 3px solid var(--pink-stick);
 }
 
 @media screen and (min-width:768px) {
@@ -134,9 +125,9 @@
 @media screen and (min-width:1200px) {
 
     .btn-pasteleria img {
-        width: 50px;
-        margin-top: 15%;
-        margin-bottom: 25%;
+        width: 45px;
+        margin-top: 10%;
+        margin-bottom: 20%;
     }
 
     .itemcata {
